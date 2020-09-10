@@ -296,36 +296,72 @@
     z-index: 0;
     overflow: hidden;
     }
+/*Я не могу понять как расположить объекты, не успела разобраться(((*/
 .footer {
     background-color: #1f1f1f;
-    min-height: 350px;
+    min-height: 154px;
     box-sizing: border-box;
-    padding: 2.5em 0 1.3em;
+    padding: 60px 0 40px 0;
+    color: white;
+    display: block;
+    padding-bottom: 18.2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 35px;
 }
 .footer__columns {
     display: flex;
     justify-content: space-between;
     width: 90%;
-    margin: auto;
+    margin-bottom: 0px;
+    margin-left: 23.7031px;
+    margin-right: 23.7031px;
+    margin-top: 0px;
+    list-style: none;
+    padding: 0;
+    align-items: flex-start;
+    position: space-between;
+    height: 100%;
 }
 .footer__column_content_copyright {
     flex-basis: 29em;
-    position: relative
+    position: relative;
+    display: block;
+    flex-basis: 224px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 20.7px;
+    min-height: 144px;
+
 }
 .footer__columns_info {
     display: flex;
 }
 .footer__content_info {
     margin-right: 1em;
+    display: flex;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .footer__column_content_social {
-
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    min-height: 144px;
 }
-.logo_place_footer {
+.logo_footer {
+    display: block;
     height: 35px;
     width: 183px;
+    color: #4F4F4F;
 }
 .footer__author {
+    display: block; 
+    position: absolute;          
+    flex-direction: column;         
+    justify-content: space-between; 
     position: absolute;
     left: 0;
     bottom: 0;
@@ -339,18 +375,35 @@
     line-height: 30px;
     font-size: 18px;
     font-style: bold;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
+.footer__list-item {
+    text-align: left;
+    font-size: 18px;
+}
 .footer__column-links {
     text-decoration: none;
     margin-right: 0;
     position: relative;
-    color: #fff;
     line-height: 30px;
     font-size: 18px;
     font-style: normal;
+    list-style: none;
+    text-decoration: none;
+
 }
 .footer__social-icons {
+    list-style:none;
+    margin-right: 10px;
+}
+.footer__link {
+    text-decoration-line: none;
+    text-align: left;
+    text-decoration-color: #4F4F4F;
     color: #fff;
 
+
+
+}
 }
