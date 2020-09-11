@@ -72,8 +72,6 @@
     position: absolute;
     top: 3.2em;
     right: 0;
-    transform: rotate(-15deg);
-    animation: rotation linear 20s infinite;
 }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
